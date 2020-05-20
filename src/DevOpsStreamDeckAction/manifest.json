@@ -1,0 +1,44 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/prIcon",
+      "Name": "Open PRs",
+      "States": [
+        {
+          "Image": "images/prIcon",
+          "TitleAlignment": "bottom",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Count of Open PRs",
+      "UUID": "tocsoft.streamdeck.azuredevops.openPrs"
+    }
+  ],
+  "Category": "Azure DevOps",
+  "CategoryIcon": "images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "Scott Williams",
+  "CodePathWin": "DevOpsStreamDeckAction.exe",
+  "CodePathMac": "DevOpsStreamDeckAction",
+  "PropertyInspectorPath": "property_inspector/property_inspector.html",
+  "Description": "Description of MyPlugin.",
+  "Name": "Azure DevOps",
+  "Icon": "images/category/categoryIcon",
+  "URL": "https://github.com/tocsoft/",
+  "Version": "1.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
